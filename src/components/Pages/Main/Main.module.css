@@ -1,0 +1,13 @@
+.gallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.img {
+    width: 400px;
+}
+
+.active {
+    width: 800px;
+}
