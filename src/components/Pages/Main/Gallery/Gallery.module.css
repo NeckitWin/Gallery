@@ -1,0 +1,29 @@
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: stretch;
+    align-items: flex-start;
+    margin: 30px auto 0;
+    width: 100%;
+}
+
+.img {
+    max-width: 300px;
+    max-height: 500px;
+    object-fit: cover;
+    border-radius: 20px;
+    margin: 5px 5px;
+}
+
+.active {
+    position: absolute;
+    max-width: 1000px;
+    max-height: 800px;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    border: #ffffff 5px solid;
+    box-shadow: 0 0 10px #FFFFFF;
+    border-radius: 0;
+}

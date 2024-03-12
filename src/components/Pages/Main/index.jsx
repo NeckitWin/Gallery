@@ -1,9 +1,11 @@
-import s from "./Shop.module.css";
+import s from "./Main.module.css";
+import Gallery from "./Gallery";
 
 const Shop = () => {
+
     return (
-        <div className={s.div}>
-123
+        <div className={`${s.main}`}>
+            <Gallery />
         </div>
     )
 }

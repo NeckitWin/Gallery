@@ -1,0 +1,30 @@
+.header {
+    height: 650px;
+    background-size: cover;
+    background-position: center;
+    background-image: url("https://cdn.pixabay.com/photo/2016/12/27/21/03/lone-tree-1934897_1280.jpg");
+}
+
+.header__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+h1 {
+    font-size: 3.5rem;
+    color: #fff;
+    font-weight: 350;
+    margin-bottom: 20px;
+    text-shadow: 0 0 10px #000;
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    color: #fff;
+    font-weight: 300;
+    text-shadow: 0 0 10px #000, 0 0 10px #000, 0 0 10px #000;
+}

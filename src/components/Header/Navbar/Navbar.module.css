@@ -1,0 +1,36 @@
+.navbar {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    box-shadow: 0 0 1px #8c8c8c;
+}
+.navleft, .navright {
+    display: flex;
+    align-items: center;
+}
+.link {
+    color: #2f2f2f;
+    text-decoration: none;
+    font-size: 16.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.2s ease-in-out;
+    font-weight: 450;
+    width: 150px;
+    height: 50px;
+}
+.navleft .link:first-child {
+    background-image: url("/public/favicon.png");
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.link:hover, .active {
+    color: #ababab;
+    background: rgb(38, 38, 38, 0.8);
+    height: 54px;
+    transform: translateY(2px);
+}
