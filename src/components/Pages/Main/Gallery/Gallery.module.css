@@ -9,8 +9,8 @@
 }
 
 .img {
-    max-width: 300px;
-    max-height: 500px;
+    max-width: 330px;
+    max-height: 210px;
     object-fit: cover;
     border-radius: 20px;
     margin: 5px 5px;
