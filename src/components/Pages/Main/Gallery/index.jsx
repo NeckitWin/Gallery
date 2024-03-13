@@ -3,7 +3,6 @@ import {useState} from "react";
 import images from "./images";
 
 const Gallery = () => {
-
     const [active, setActive] = useState(null);
     const handleClick = (index) => {
         active !== index ? setActive(index) : setActive(null);
