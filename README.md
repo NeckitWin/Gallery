@@ -1,6 +1,8 @@
 # React App project "Gallery"
 ## by NeckitWin
 
+Preview: [Gallery https://neckitwin.github.io/Gallery/](https://neckitwin.github.io/Gallery/)
+
 ### `npm start`
 
 Runs the app in the development mode.\
