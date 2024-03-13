@@ -4,6 +4,7 @@ import Main from "./components/Pages/Main";
 import Buy from "./components/Pages/Buy";
 import Footer from "./components/Footer";
 import About from "./components/Pages/About";
+import Sellart from "./components/Pages/Sellart";
 
 
 const App = () => {
@@ -16,6 +17,7 @@ const App = () => {
                     <Route path='/Gallery' element={<Main />} />
                     <Route path='/buy-art' element={<Buy />} />
                     <Route path='/about-us' element={<About />} />
+                    <Route path='/sell-art' element={<Sellart />} />
                 </Routes>
                 <Footer />
             </main>

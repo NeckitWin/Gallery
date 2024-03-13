@@ -1,0 +1,22 @@
+.form {
+    margin: 20px auto 0;
+    width: 800px;
+    background: #262626;
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 0 1px #FFFFFF;
+    color: #FFFFFF;
+}
+
+.info__title {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.info__main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
