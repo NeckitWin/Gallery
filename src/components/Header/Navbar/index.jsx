@@ -4,7 +4,7 @@ import {useState} from "react";
 
 const Navbar = () => {
     const [links] = useState([
-        {name: "", path: "/main"},
+        {name: "", path: "/"},
         {name: "Buy Art", path: "/buy-art"},
         {name: "Sell Art", path: "/sell-art"},
         {name: "About Us", path: "/about-us"},
