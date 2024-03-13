@@ -1,0 +1,34 @@
+.about {
+    margin: 20px 0;
+    padding: 0 50px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about h2 {
+    margin-bottom: 20px;
+    transition: 0.3s ease;
+}.about h2:hover {
+    transform: scale(1.05);
+     color: #d2d2d2;
+ }
+
+.about h3 {
+    color: #cccccc;
+    margin-bottom: 10px;
+}
+
+.about p {
+    color: #8c8c8c;
+}
+
+.team__members {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}

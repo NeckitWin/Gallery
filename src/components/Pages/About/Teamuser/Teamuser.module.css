@@ -1,0 +1,33 @@
+.team__member {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 270px;
+    margin: 10px 0;
+    transition: 0.3s ease;
+    text-decoration: none;
+}
+
+.team__member:hover {
+    transform: translateY(-8px);
+    cursor: pointer;
+}
+
+.team__member h3 {
+    font-size: 24px;
+    color: #c4c4c4;
+}
+
+.team__member img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-position: center;
+    background-size: contain;
+}
+
+.team__member p {
+    font-size: 18px;
+    color: #c4c4c4;
+}
