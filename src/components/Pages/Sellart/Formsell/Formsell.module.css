@@ -1,10 +1,10 @@
 .form {
-    margin: 20px auto 0;
-    width: 800px;
+    margin: 30px auto;
+    width: 600px;
     background: #262626;
     border-radius: 20px;
     padding: 30px;
-    box-shadow: 0 0 1px #FFFFFF;
+    box-shadow: 0 0 1px #333;
     color: #FFFFFF;
 }
 
@@ -19,4 +19,38 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+}
+
+#upload__image {
+    width: 150px;
+    height: 150px;
+    border: 0;
+    background-image: url("/public/content/image_icon.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-size: 0;
+    border-radius: 20px;
+    transition: 0.3s ease;
+}
+#upload__image:hover {
+    cursor: pointer;
+    transform: translateY(-5px);
+}
+
+.sell {
+    text-align: center;
+}
+.sell button {
+    margin-top: 50px;
+    background-color: #575757;
+    color: #FFFFFF;
+    font-size: 20px;
+    padding: 10px 15px;
+    border-radius: 15px;
+    transition: 0.3s ease;
+}
+
+.sell button:hover {
+    cursor: pointer;
+    transform: scale(1.05);
 }

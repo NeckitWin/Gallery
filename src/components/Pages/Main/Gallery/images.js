@@ -35,6 +35,24 @@ export const images = [
     }, {
         "img": "https://cdn.pixabay.com/photo/2023/07/07/18/45/flowers-8113229_1280.jpg",
         "alt": "purple-flower"
+    }, {
+        "img": "https://cdn.pixabay.com/photo/2024/02/23/19/37/squirrel-8592682_1280.jpg",
+        "alt": "squirrel"
+    }, {
+        "img": "https://cdn.pixabay.com/photo/2023/08/09/10/46/iceberg-8179206_960_720.jpg",
+        "alt": "iceberg"
+    }, {
+        "img": "https://cdn.pixabay.com/photo/2024/02/10/18/31/common-heron-8565354_1280.jpg",
+        "alt": "heron"
+    }, {
+        "img": "https://cdn.pixabay.com/photo/2024/03/05/10/38/boat-8614314_1280.jpg",
+        "alt": "boat"
+    }, {
+        "img": "https://cdn.pixabay.com/photo/2023/05/06/20/21/reeds-7975080_1280.png",
+        "alt": "reeds"
+    }, {
+        "img": "https://cdn.pixabay.com/photo/2024/02/21/14/14/mountains-8587802_960_720.jpg",
+        "alt": "mountains"
     }
 ];
 
